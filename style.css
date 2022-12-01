@@ -1,0 +1,47 @@
+* {
+background-color: black;
+}
+
+body {background-color: black;}
+
+
+.ig img{
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    padding: 3px;
+}
+
+.ig{
+    display: inline-flex;
+    padding: 2px;
+}
+h5{
+    color: aliceblue;
+}
+
+#menu {color: white;}
+.links{
+    display: inline-flex;
+}
+.links ul li{
+   list-style-type: none;
+   display: inline-block;
+}
+.links a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.links ul li a{
+    top: 15px;
+    padding: 10px 20px;
+    font-size: 20px;
+    float: right;
+    position: relative;
+}
+.container-1{
+    margin-left: 20px;
+}
+.links ul li a:hover{
+    color: gray;
+}
